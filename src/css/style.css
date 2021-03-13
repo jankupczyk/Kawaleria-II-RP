@@ -1,0 +1,368 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d2d2d;
+    color: aliceblue;
+}
+
+.brand-title {
+    font-size: 2rem;
+    margin: .3rem;
+}
+
+.brand-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 11px;
+    display: block;
+    font-size: 20px !important;
+    transition: ease-in 0.5s;
+}
+
+.nav-links ul li a:hover {
+    color: #ef7d0b;
+    transition: ease-in 0.5s;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.bar-toggle {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.horse-png {
+    transition: ease-in 0.5s;
+
+}
+
+.horse-png:hover {
+    transition: ease-in 0.5s;
+}
+
+#progress-bar-container {
+    top: 0%;
+    width: 100%;
+    position: fixed;
+    height: 4px;
+    background-color: #A9A9A9;
+    z-index: 7;
+    opacity: 0.8;
+}
+
+#progress-bar {
+    width: 0%;
+    height: 4px;
+    background-color: #ef7d0b;
+}
+
+.bg-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #2d2d2d;
+    overflow: hidden;
+    position: relative;
+}
+
+video {
+    object-fit: cover;
+    width: 99vw;
+    height: 100vh;
+}
+
+.main-content {
+    background-color: #2d2d2d;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    text-align: center;
+    color: #ef7d0b;
+    justify-content: center;
+    transition: ease-in 0.5s;
+}
+
+.content p {
+    width: 85%;
+    font-size: 19px;
+}
+
+.about-bitwy {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(/public/assets/photos/charge-cavalry.jpg);
+    height: 100vh;
+    display: grid;
+    place-items: center center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-bitwy h1 {
+    text-align: center;
+    color: #ef7d0b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding: 15px;
+    grid-gap: 40px;
+    transition: ease-in 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    image-rendering: crisp-edges;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+    background-color: #ef7d0b;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.53);
+    transition: ease-in 0.5s;
+    border: 2px solid #ef7d0b;
+}
+
+.container {
+    height: 70px;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+.container img {
+    display: block;
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    filter: brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+}
+
+.container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+
+.details {
+    padding: 15px 15px;
+}
+
+.details>h3 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+
+.details>p {
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.scrollToTopBTN {
+    background-color: #ef7d0b;
+    display: none;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 100;
+    transform: translateY(1px);
+    transition: ease-in 0.5s;
+}
+
+.scrollToTopBTN:hover {
+    transform: scale(1.05);
+    transition: ease-in 0.5s;
+}
+
+.links {
+    text-decoration: none;
+    color: #ef7d0b;
+    transition: ease-in 0.5s;
+    font-size: 16px !important;
+}
+
+.links:hover {
+    transition: ease-in 0.5s;
+    color: white;
+}
+
+.footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #ef7d0b;
+}
+
+@media (max-width: 768px) {
+    .toggle-btn {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .nav-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .cards {
+        display: grid;
+        padding: 10px;
+        grid-gap: 20px;
+        transform: scale(0.65);
+        transition: ease-in 0.5s;
+    }
+
+    .details>h3 {
+        margin: 5px 0 10px 0;
+    }
+
+    .details>p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .about-bitwy {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        display: grid;
+        place-items: center center;
+    }
+}
+
+/*Moto G4 Galaxy S5*/
+@media screen and (max-width: 360px),
+screen and (max-height: 640px) {
+    .cards {
+        display: grid;
+        padding: 5px;
+        grid-gap: 15px;
+        transform: scale(0.55);
+        transition: ease-in 0.5s;
+    }
+
+    .details>h3 {
+        margin: 3px 0 7px 0;
+    }
+
+    .details>p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .about-bitwy {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 99vw;
+        height: 100vh;
+        display: grid;
+        place-items: center center;
+    }
+
+    .about-bitwy h1 {
+        margin-right: 15%;
+        text-align: center;
+        font-size: smaller;
+    }
+}
