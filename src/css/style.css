@@ -137,7 +137,7 @@ video {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(/public/assets/photos/charge-cavalry.jpg);
+    background-image: url(public/assets/photos/charge-cavalry.jpg);
     height: 100vh;
     display: grid;
     place-items: center center;
