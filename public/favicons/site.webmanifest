@@ -1,0 +1,45 @@
+{
+    "name": "Kawaleria II RP",
+    "short_name": "Kawaleria",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#2d2d2d",
+    "background_color": "#2d2d2d",
+    "description": "Strona o polskiej kawalerii w II RP",
+    "icons": [{
+        "src": "../../public/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+    }, {
+        "src": "../../public/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+    }, {
+        "src": "../../public/favicons/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }, {
+        "src": "../../public/favicons/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }, {
+        "src": "../../public/favicons/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+    }],
+    "related_applications": [{
+        "platform": "play",
+        "url": ""
+    }],
+    "screenshots": [{
+            "src": "",
+            "sizes": "1920x1080",
+            "type": "image/webp"
+        },
+        {
+            "src": "",
+            "sizes": "1920x1080",
+            "type": "image/webp"
+        }
+    ]
+}
