@@ -354,6 +354,8 @@ video {
     width: 16em;
     max-width: 50vw;
     background-color: white;
+    background-image: url();
+    opacity: 0.7;
     font-family: "Open Sans", sans-serif;
     font-size: 14.5px;
     line-height: 1.45em;
@@ -380,6 +382,15 @@ video {
     margin: 0;
     padding: 1.1em 24px 0 24px;
     color: #2d2d2d;
+}
+
+.lg-hotspot__label img{
+    width: 16em;
+    max-width: 50vw;
+    z-index: -1;
+    transition: ease-in;
+    filter: brightness(60%) contrast(120%) saturate(0%) brightness(170%);
+    transform: scale(0.75);
 }
 
 .lg-hotspot--top-left .lg-hotspot__label {
@@ -541,7 +552,7 @@ footer {
     color: white;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     .toggle-btn {
         display: flex;
     }
