@@ -732,17 +732,6 @@ screen and (max-height: 640px) {
         line-height: 15px;
     }
 
-    .about-bitwy {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        width: 99vw;
-        height: 100vh;
-        display: grid;
-        place-items: center center;
-    }
-
     .about-bitwy h1 {
         margin-right: 15%;
         text-align: center;
