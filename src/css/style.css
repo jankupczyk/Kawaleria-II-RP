@@ -793,9 +793,11 @@ screen and (max-height: 640px) {
     }
 
     .img-slider .navigation .btn {
-        width: 8px;
-        height: 8px;
-        margin: 6px;
+        width: 25px;
+        height: 25px;
+        margin: 15px;
+        border-radius: 50%;
+        cursor: pointer;
     }
 }
 
