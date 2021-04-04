@@ -22,57 +22,69 @@ body {
 body.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 .navbar.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 .main_content.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 .cytaty-container.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 .mity-container.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 .img-slider.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 footer.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 .author.sunny {
     background-color: #efeff1;
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 p.sunny {
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 a.sunny {
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 h1.sunny {
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 cite.sunny {
     color: #2d2d2d;
+    transition: ease-in-out 0.6s;
 }
 
 
