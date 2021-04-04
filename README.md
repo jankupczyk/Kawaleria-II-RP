@@ -1,2 +1,6 @@
 # Kawaleria-II-RP
-[![Header]Strona](https://some-url.dev/)
+Strona o polskiej kawalerii z okresu IIWŚ
+
+
+
+Jan Kupczyk
