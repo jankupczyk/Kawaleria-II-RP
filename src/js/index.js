@@ -110,3 +110,20 @@ $(function () {
   $('html, body').css({ overflow: 'auto' });
 
 });
+
+const chk = document.getElementById('chkbox');
+
+chk.addEventListener('change', () => {
+  document.querySelector('.navbar').classList.toggle('sunny');
+  document.querySelector('.main_content').classList.toggle('sunny');
+  document.querySelector('body').classList.toggle('sunny');
+  document.querySelector('.cytaty-container').classList.toggle('sunny');
+  document.querySelector('.mity-container').classList.toggle('sunny');
+  document.querySelector('.img-slider').classList.toggle('sunny');
+  document.querySelector('.author').classList.toggle('sunny');
+  document.querySelectorAll('footer').forEach(elem => elem.classList.toggle('sunny'));
+  document.querySelectorAll('p').forEach(elem => elem.classList.toggle('sunny'));
+  document.querySelectorAll('a').forEach(elem => elem.classList.toggle('sunny'));
+  document.querySelectorAll('h1').forEach(elem => elem.classList.toggle('sunny'));
+  document.querySelectorAll('cite').forEach(elem => elem.classList.toggle('sunny'));
+});
