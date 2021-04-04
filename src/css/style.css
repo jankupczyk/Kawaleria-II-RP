@@ -5,9 +5,121 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    overflow: hidden;
+}
+
 @font-face {
     font-family: Humanistic;
     src: url(../../public/fonts/Humanistic.ttf);
+}
+
+.loading-screen-wrapper {
+    position: fixed;
+    background-color: #2d2d2d;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ef7d0b;
+}
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ef7d0b;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
 }
 
 body {
@@ -33,6 +145,10 @@ body {
 .brand-title a {
     text-decoration: none;
     color: white;
+}
+
+.nav-links.active {
+    transition: ease-in 0.4s;
 }
 
 .nav-links ul {
@@ -484,6 +600,7 @@ footer {
     flex: 1;
     margin: 15px;
     min-width: 300px;
+    z-index: 10000;
 }
 
 .footer-box h2 {
@@ -528,6 +645,11 @@ footer {
     height: 30px;
 }
 
+#twitter {
+    width: 30px;
+    height: 30px;
+}
+
 .footer-box a,
 .footer-box a i {
     transition: ease-in 0.5s;
@@ -543,6 +665,7 @@ footer {
 .footer-links a {
     display: block;
     margin-bottom: 10px;
+    z-index: 100;
 }
 
 .author {
@@ -610,7 +733,7 @@ footer {
 
 .img-slider .slide .info p {
     color: #fff;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.22);
     font-size: 16px;
     width: 60%;
     padding: 10px;
@@ -648,6 +771,7 @@ footer {
     .nav-links {
         display: none;
         width: 100%;
+        transition: ease-in 0.5s;
     }
 
     .navbar {
@@ -685,7 +809,7 @@ footer {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 880px) {
     .cards {
         display: grid;
         padding: 10px;
@@ -736,6 +860,28 @@ screen and (max-height: 640px) {
         margin-right: 15%;
         text-align: center;
         font-size: smaller;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards {
+        display: grid;
+        padding: 5px;
+        grid-gap: 15px;
+        transition: ease-in 0.5s;
+    }
+
+    .details>h3 {
+        margin: 3px 0 7px 0;
+    }
+
+    .details>p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .about-bitwy h1 {
+        text-align: center;
     }
 }
 
@@ -822,5 +968,15 @@ screen and (max-height: 640px) {
 
     .img-slider .navigation {
         bottom: 10px;
+    }
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
     }
 }

@@ -97,3 +97,16 @@ var repeat = function (activeClass) {
   repeater();
 }
 repeat();
+
+$(window).on("load", function () {
+  $(".loading-screen-wrapper").fadeOut("slow");
+});
+
+$(function () {
+  setTimeout(function () {
+
+    $(window).fadeOut(500);
+  }, 2000);
+  $('html, body').css({ overflow: 'auto' });
+
+});
