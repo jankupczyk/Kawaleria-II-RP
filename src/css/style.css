@@ -88,15 +88,6 @@ cite.sunny {
 }
 
 
-
-
-
-
-
-
-
-
-
 .checkbox {
     opacity: 0;
 }
@@ -391,7 +382,7 @@ video {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(../../public/assets/photos/charge-cavalry.jpg);
+    background-image: url(../../public/assets/photos/various/charge-cavalry.png);
     height: 100vh;
     display: grid;
     place-items: center center;
@@ -504,7 +495,7 @@ video {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(../../public/assets/photos/bckg.jpg);
+    background-image: url(../../public/assets/photos/various/bckg.png);
     display: grid;
     place-items: center center;
 
