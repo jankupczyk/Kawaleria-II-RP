@@ -206,8 +206,8 @@ cite.sunny {
     content: " ";
     display: block;
     position: absolute;
-    width: 7px;
-    height: 7px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: #ef7d0b;
     margin: -4px 0 0 -4px;
@@ -1052,6 +1052,15 @@ screen and (max-height: 640px) {
     .about-bitwy h1 {
         text-align: center;
     }
+
+    .cytaty>span>blockquote {
+        margin: 25px 12px 25px 12px;
+    }
+
+    .content h1 {
+        margin-top: 25px;
+    }
+
 }
 
 @media (max-width: 820px) {
@@ -1137,6 +1146,18 @@ screen and (max-height: 640px) {
 
     .img-slider .navigation {
         bottom: 10px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 1.5em;
+    }
+
+    .cytaty {
+        font-size: 16px;
     }
 }
 

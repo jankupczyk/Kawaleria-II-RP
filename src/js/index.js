@@ -138,4 +138,3 @@ SunnyTheme.addEventListener('change', () => {
   document.querySelectorAll('h1').forEach(elem => elem.classList.toggle('sunny'));
   document.querySelectorAll('cite').forEach(elem => elem.classList.toggle('sunny'));
 });
- 
