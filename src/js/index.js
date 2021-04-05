@@ -137,4 +137,17 @@ SunnyTheme.addEventListener('change', () => {
   document.querySelectorAll('a').forEach(elem => elem.classList.toggle('sunny'));
   document.querySelectorAll('h1').forEach(elem => elem.classList.toggle('sunny'));
   document.querySelectorAll('cite').forEach(elem => elem.classList.toggle('sunny'));
+  document.querySelectorAll('.img-slider .navigation .btn').forEach(elem => elem.classList.toggle('sunny'));
 });
+
+function contacthighlight(obj) {
+  var orig = obj.style.color;
+  obj.style.color = '#ef7d0b';
+  obj.style.transition = 'ease-in 0.5s'
+  obj.style.transform = 'scale(1.1)'
+  setTimeout(function () {
+    obj.style.color = orig;
+    obj.style.transition = orig;
+    obj.style.transform = orig;
+  }, 3000);
+}

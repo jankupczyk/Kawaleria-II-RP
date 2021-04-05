@@ -120,16 +120,11 @@ cite.sunny {
     transition: ease-in-out 0.6s;
 }
 
+.img-slider .navigation .btn.sunny {
+    background: #2d2d2d;
+}
+
 /* Sunny Theme */
-
-
-
-
-
-
-
-
-
 
 .checkbox {
     opacity: 0;
