@@ -87,6 +87,41 @@ cite.sunny {
     transition: ease-in-out 0.6s;
 }
 
+.sunny {
+    color: #2d2d2d;
+}
+
+.label .ball.sunny {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 15px;
+    width: 15px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.nav-links .sunny {
+    color: #2d2d2d;
+    transition: ease-in-out 0.6s;
+}
+
+.footer-links .sunny {
+    color: #2d2d2d;
+    transition: ease-in-out 0.6s;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-box .sunny {
+    color: #2d2d2d;
+    transition: ease-in-out 0.6s;
+}
+
+/* Sunny Theme */
+
 
 .checkbox {
     opacity: 0;
@@ -107,7 +142,7 @@ cite.sunny {
 }
 
 .label .ball {
-    background-color: #fff;
+    background-color: white;
     border-radius: 50%;
     position: absolute;
     top: 2px;
