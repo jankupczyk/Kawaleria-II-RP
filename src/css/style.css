@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
+
 }
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -389,7 +390,7 @@ body {
 
 video {
     object-fit: cover;
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -719,7 +720,7 @@ video {
     position: fixed;
     bottom: 35px;
     right: 20px;
-    z-index: 100;
+    z-index: 999999;
     transform: translateY(1px);
     transition: ease-in-out 0.5s;
 }
