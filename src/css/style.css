@@ -428,7 +428,7 @@ video {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(../../public/assets/photos/various/charge-cavalry.png);
+    background-image: url(../../public/assets/photos/various/webp/charge-cavalry.webp);
     height: 100vh;
     display: grid;
     place-items: center center;
@@ -533,7 +533,7 @@ video {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url(../../public/assets/photos/various/bckg.png);
+    background-image: url(../../public/assets/photos/various/webp/bckg.webp);
     display: grid;
     place-items: center center;
 
