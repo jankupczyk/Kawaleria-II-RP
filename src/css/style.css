@@ -166,12 +166,19 @@ cite.sunny {
     color: #FEFCD7;
     width: 12px;
     height: 12px;
+    -webkit-transform-origin: 70% 0;
+    transform-origin: 70% 0;
+    -webkit-animation: swinging 4s ease-in-out forwards infinite;
+    animation: swinging 4s ease-in-out forwards infinite;
 }
 
 .fa-sun {
     color: #FDB813;
     width: 12px;
     height: 12px;
+    -webkit-animation: spinner 4s linear infinite;
+    -moz-animation: spinner 4s linear infinite;
+    animation: spinner 4s linear infinite;
 }
 
 .loading-screen-wrapper {
@@ -602,38 +609,6 @@ video {
     border-radius: 100%;
     z-index: 999;
     animation: pingping 2s linear infinite;
-}
-
-
-@-webkit-keyframes pingping {
-    0% {
-        -webkit-box-shadow: 0 0 0 0 #efeff1;
-    }
-
-    70% {
-        -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-    }
-
-    100% {
-        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-    }
-}
-
-@keyframes pingping {
-    0% {
-        -moz-box-shadow: 0 0 0 0 #efeff1;
-        box-shadow: 0 0 0 0 #efeff1;
-    }
-
-    70% {
-        -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
-    }
-
-    100% {
-        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
-    }
 }
 
 .lg-hotspot__button:hover {
@@ -1197,5 +1172,84 @@ screen and (max-height: 640px) {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+
+@-webkit-keyframes pingping {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #efeff1;
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+@keyframes pingping {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #efeff1;
+        box-shadow: 0 0 0 0 #efeff1;
+    }
+
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+@-moz-keyframes spinner {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spinner {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes swinging {
+    0% {
+        -webkit-transform: rotate(10deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(-5deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(10deg);
+    }
+}
+
+@keyframes swinging {
+    0% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-5deg)
+    }
+
+    100% {
+        transform: rotate(10deg);
     }
 }

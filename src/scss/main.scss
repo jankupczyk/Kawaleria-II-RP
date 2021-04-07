@@ -1,6 +1,8 @@
 $primary: #2d2d2d;
 $secondary: #3a3a3ace;
 $tertiary: #efeff1;
+$quaternary: #ef7d0b;
+$quinary: #ef7d0bb6;
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -12,13 +14,13 @@ $tertiary: #efeff1;
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #ef7d0b;
+    background-color: $quaternary;
     transition: ease-in-out 0.5s;
 }
 
 ::-webkit-scrollbar-corner {
     border-radius: 10px;
-    background-color: #ef7d0b;
+    background-color: $quaternary;
     transition: ease-in-out 0.5s;
 }
 
@@ -27,7 +29,7 @@ $tertiary: #efeff1;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #ef7d0bb6;
+    background-color: $quinary;
     transition: ease-in-out 0.5s;
 
     ::-webkit-scrollbar-track-piece:hover {
@@ -37,6 +39,6 @@ $tertiary: #efeff1;
 }
 
 ::-webkit-scrollbar-corner:hover {
-    background-color: #ef7d0bb6;
+    background-color: $quinary;
     transition: ease-in-out 0.5s;
 }
