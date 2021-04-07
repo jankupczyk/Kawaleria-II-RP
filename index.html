@@ -46,6 +46,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="public/Magnifying glass/magnify.css">
+
     <link rel="stylesheet" href="src/scss/main.css">
 
     <link rel="stylesheet" href="src/css/style.css">
@@ -148,7 +150,7 @@
         <div class="cards">
             <div class="card card1">
                 <div class="container">
-                    <img src="public/assets/photos/battles/battle_kom.png" alt="Bitwa pod Komarowem">
+                    <img src="public/assets/photos/battles/webp/battle_kom.webp" alt="Bitwa pod Komarowem" class="zoom" data-magnify-src="public/assets/photos/battles/webp/battle_kom.webp">
                 </div>
                 <div class="details">
                     <h3 title="Bitwa pod Komarowem">Bitwa pod Komarowem</h3>
@@ -158,7 +160,7 @@
             </div>
             <div class="card card2">
                 <div class="container">
-                    <div><img src="public/assets/photos/battles/battle_kro.png" alt="Bitwa pod Krojantami"></div>
+                    <div><img src="public/assets/photos/battles/webp/battle_kro.webp" alt="Bitwa pod Krojantami" class="zoom" data-magnify-src="public/assets/photos/battles/webp/battle_kro.webp"></div>
                 </div>
                 <div class="details">
                     <h3 title="Bitwa pod Krojantami">Bitwa pod Krojantami</h3>
@@ -168,7 +170,7 @@
             </div>
             <div class="card card3">
                 <div class="container">
-                    <img src="public/assets/photos/battles/battle_bzur.png" alt="Bitwa nad Bzurą">
+                    <img src="public/assets/photos/battles/webp/battle_bzur.webp" alt="Bitwa nad Bzurą" class="zoom" data-magnify-src="public/assets/photos/battles/webp/battle_bzur.webp">
                 </div>
                 <div class="details">
                     <h3 title="Bitwa nad Bzurą">Bitwa nad Bzurą</h3>
@@ -178,7 +180,8 @@
             </div>
             <div class="card card4">
                 <div class="container">
-                    <img src="public/assets/photos/battles/battle_tomlub.png" alt="Bitwa pod Tomaszowem Lubelskim">
+                    <img src="public/assets/photos/battles/webp/battle_tomlub.webp"
+                        alt="Bitwa pod Tomaszowem Lubelskim" class="zoom" data-magnify-src="public/assets/photos/battles/webp/battle_tomlub.webp">
                 </div>
                 <div class="details">
                     <h3 title="Bitwa pod Tomaszowem Lubelskim">Bitwa pod Tomaszowem Lubelskim</h3>
@@ -557,11 +560,17 @@
 
     </footer>
 
+    <script src="public/Magnifying glass/jquery.magnify.js"></script>
 
     <script defer src="https://use.fontawesome.com/releases/v5.15.2/js/all.js"></script>
 
     <script src="src/js/index.js"></script>
 
+    <script>
+        $(document).ready(function () {
+            $('.zoom').magnify();
+        });
+    </script>
 </body>
 
 </html>
