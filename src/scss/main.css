@@ -42,4 +42,56 @@
   -webkit-transition: ease-in-out 0.5s;
   transition: ease-in-out 0.5s;
 }
+
+.pl:hover {
+  background-color: #ef7d0b;
+}
+
+.en:hover {
+  background-color: #ef7d0b;
+}
+
+.de:hover {
+  background-color: #ef7d0b;
+}
+
+.fr:hover {
+  background-color: #ef7d0b;
+}
+
+.pl {
+  background-image: url(https://www.countryflags.io/pl/flat/24.png);
+  width: 24px;
+  height: 24px;
+  z-index: 9999;
+  float: left;
+  margin-right: 2px;
+}
+
+.en {
+  background-image: url(https://www.countryflags.io/us/flat/24.png);
+  width: 24px;
+  height: 24px;
+  z-index: 9999;
+  float: left;
+  margin-right: 2px;
+}
+
+.de {
+  background-image: url(https://www.countryflags.io/de/flat/24.png);
+  width: 24px;
+  height: 24px;
+  z-index: 9999;
+  float: left;
+  margin-right: 2px;
+}
+
+.fr {
+  background-image: url(https://www.countryflags.io/fr/flat/24.png);
+  width: 24px;
+  height: 24px;
+  z-index: 9999;
+  float: left;
+  margin-right: 2px;
+}
 /*# sourceMappingURL=main.css.map */
