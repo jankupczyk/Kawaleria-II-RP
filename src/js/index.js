@@ -149,5 +149,5 @@ function contacthighlight(obj) {
     obj.style.color = orig;
     obj.style.transition = orig;
     obj.style.transform = orig;
-  }, 3000);
+  }, 2500);
 }
