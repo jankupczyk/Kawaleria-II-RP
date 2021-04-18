@@ -59,6 +59,10 @@
   background-color: #ef7d0b;
 }
 
+.es:hover {
+  background-color: #ef7d0b;
+}
+
 .pl {
   background-image: url(https://www.countryflags.io/pl/flat/24.png);
   width: 24px;
@@ -88,6 +92,15 @@
 
 .fr {
   background-image: url(https://www.countryflags.io/fr/flat/24.png);
+  width: 24px;
+  height: 24px;
+  z-index: 9999;
+  float: left;
+  margin-right: 2px;
+}
+
+.es {
+  background-image: url(https://www.countryflags.io/es/flat/24.png);
   width: 24px;
   height: 24px;
   z-index: 9999;
