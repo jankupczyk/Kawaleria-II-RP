@@ -92,7 +92,7 @@ var repeat = function (activeClass) {
         return;
       }
       repeater();
-    }, 10000);
+    }, 11500);
   }
   repeater();
 }
