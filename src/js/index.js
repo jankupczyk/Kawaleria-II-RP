@@ -151,3 +151,5 @@ function contacthighlight(obj) {
     obj.style.transform = orig;
   }, 2500);
 }
+
+// JAN KUPCZYK

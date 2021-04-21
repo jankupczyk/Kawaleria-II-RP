@@ -155,10 +155,12 @@ cite.sunny {
     width: 15px;
     transform: translateX(0px);
     transition: transform 0.2s linear;
+    transition: ease-in 0.5s;
 }
 
 .checkbox:checked+.label .ball {
     transform: translateX(16px);
+    transition: ease-in 0.5s;
 }
 
 
@@ -1120,6 +1122,7 @@ screen and (max-height: 640px) {
         border-radius: 50%;
         cursor: pointer;
     }
+
 }
 
 @media (max-width: 420px) {
@@ -1246,3 +1249,5 @@ screen and (max-height: 640px) {
         transform: rotate(10deg);
     }
 }
+
+/* JAN KUPCZYK */

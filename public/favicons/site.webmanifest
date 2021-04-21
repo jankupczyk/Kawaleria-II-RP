@@ -5,7 +5,7 @@
     "display": "standalone",
     "theme_color": "#2d2d2d",
     "background_color": "#2d2d2d",
-    "description": "Strona o polskiej kawalerii w II RP",
+    "description": "Strona o polskiej kawalerii, przedstawia najważniejsze zagadnienia związane z polską kawalerią z okresu II RP",
     "icons": [{
         "src": "../../public/favicons/favicon-16x16.png",
         "sizes": "16x16",
