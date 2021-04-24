@@ -45,22 +45,42 @@
 
 .pl:hover {
   background-color: #ef7d0b;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
 }
 
 .en:hover {
   background-color: #ef7d0b;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
 }
 
 .de:hover {
   background-color: #ef7d0b;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
 }
 
 .fr:hover {
   background-color: #ef7d0b;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
 }
 
 .es:hover {
   background-color: #ef7d0b;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-filter: brightness(1.2);
+          filter: brightness(1.2);
 }
 
 .pl {
@@ -69,7 +89,7 @@
   height: 24px;
   z-index: 9999;
   float: left;
-  margin-right: 3px;
+  margin-right: 4px;
   background-repeat: no-repeat;
 }
 
@@ -79,7 +99,7 @@
   height: 25px;
   z-index: 9999;
   float: left;
-  margin-right: 3px;
+  margin-right: 4px;
   background-repeat: no-repeat;
 }
 
@@ -89,7 +109,7 @@
   height: 25px;
   z-index: 9999;
   float: left;
-  margin-right: 3px;
+  margin-right: 4px;
   background-repeat: no-repeat;
 }
 
@@ -99,7 +119,7 @@
   height: 24px;
   z-index: 9999;
   float: left;
-  margin-right: 3px;
+  margin-right: 4px;
   background-repeat: no-repeat;
 }
 
@@ -109,7 +129,7 @@
   height: 24px;
   z-index: 9999;
   float: left;
-  margin-right: 3px;
+  margin-right: 4px;
   background-repeat: no-repeat;
 }
 /*# sourceMappingURL=main.css.map */
