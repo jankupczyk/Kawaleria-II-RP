@@ -64,49 +64,56 @@ $quinary: #ef7d0bb6;
 }
 
 .pl {
-    background-image: url(https://www.countryflags.io/pl/flat/24.png);
+    background-image: url(../../public/assets/photos/flags-lang/webp/pl.webp);
     width: 24px;
     height: 24px;
     z-index: 9999;
     float: left;
-    margin-right: 2px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
 }
 
 .en {
-    background-image: url(https://www.countryflags.io/us/flat/24.png);
+    background-image: url(../../public/assets/photos/flags-lang/webp/us.webp);
     width: 24px;
-    height: 24px;
+    height: 25px;
     z-index: 9999;
     float: left;
-    margin-right: 2px;
-
+    margin-right: 3px;
+    background-repeat: no-repeat;
 }
 
 .de {
-    background-image: url(https://www.countryflags.io/de/flat/24.png);
+    background-image: url(../../public/assets/photos/flags-lang/webp/de.webp);
     width: 24px;
-    height: 24px;
+    height: 25px;
     z-index: 9999;
     float: left;
-    margin-right: 2px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+
 }
 
 .fr {
-    background-image: url(https://www.countryflags.io/fr/flat/24.png);
+    background-image: url(../../public/assets/photos/flags-lang/webp/fr.webp);
     width: 24px;
     height: 24px;
     z-index: 9999;
     float: left;
-    margin-right: 2px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+
 }
 
 .es {
-    background-image: url(https://www.countryflags.io/es/flat/24.png);
+    background-image: url(../../public/assets/photos/flags-lang/webp/es.webp);
     width: 24px;
     height: 24px;
     z-index: 9999;
     float: left;
-    margin-right: 2px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+
 }
 
 // JAN KUPCZYK
