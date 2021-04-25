@@ -138,6 +138,7 @@ SunnyTheme.addEventListener('change', () => {
   document.querySelectorAll('h1').forEach(elem => elem.classList.toggle('sunny'));
   document.querySelectorAll('cite').forEach(elem => elem.classList.toggle('sunny'));
   document.querySelectorAll('.img-slider .navigation .btn').forEach(elem => elem.classList.toggle('sunny'));
+  document.querySelectorAll('.nav-links ul li a:hover').forEach(elem => elem.classList.toggle('sunny'));
 });
 
 function contacthighlight(obj) {
@@ -151,5 +152,6 @@ function contacthighlight(obj) {
     obj.style.transform = orig;
   }, 2500);
 }
+
 
 // JAN KUPCZYK

@@ -3,7 +3,6 @@
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
-
 }
 
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -18,7 +17,7 @@ body {
     src: url(../../public/fonts/Humanistic.ttf);
 }
 
-/* Sunny Theme */
+/* Sunny Theme START*/
 
 body.sunny {
     background-color: #efeff1;
@@ -125,8 +124,17 @@ cite.sunny {
     background: #2d2d2d;
 }
 
-/* Sunny Theme */
+.nav-links ul li a:hover.sunny {
+    background-color: #DEE4E7;
+}
 
+.img-slider .slide .info p.sunny {
+    color: #2d2d2d;
+    background: rgba(239, 239, 241, .40);
+}
+/* Sunny Theme END*/
+
+/* Theme switcher START */
 .checkbox {
     opacity: 0;
 }
@@ -183,6 +191,9 @@ cite.sunny {
     animation: spinner 4s linear infinite;
 }
 
+/* Theme switcher END */
+
+/* Website LOADER START*/
 .loading-screen-wrapper {
     position: fixed;
     background-color: #2d2d2d;
@@ -290,12 +301,15 @@ cite.sunny {
     left: 12px;
 }
 
+/* Website LOADER END*/
+
 body {
     background-color: #2d2d2d;
     width: 100%;
     height: 100%;
 }
 
+/* Nanbar START*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -370,6 +384,9 @@ body {
     transition: ease-in 0.5s;
 }
 
+/* Nanbar END*/
+
+/* Progress bar START*/
 #progress-bar-container {
     top: 0%;
     width: 100%;
@@ -385,6 +402,8 @@ body {
     height: 4px;
     background-color: #ef7d0b;
 }
+
+/* Progress bar END*/
 
 .bg-container {
     height: 100vh;
@@ -840,6 +859,7 @@ footer {
     color: white;
 }
 
+/* Slider START */
 .slider {
     background-repeat: no-repeat;
     background-position: center;
@@ -918,12 +938,25 @@ footer {
     margin: 10px;
     border-radius: 50%;
     cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.img-slider .navigation .btn:hover {
+    opacity: 40%;
+    transition: ease-in 0.3s;
+}
+
+.img-slider .navigation .btn.active:hover {
+    opacity: 100%;
+    transition: ease-in 0.3s;
 }
 
 .img-slider .navigation .btn.active {
     background: #ef7d0b;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
+
+/* Slider END*/
 
 @media (max-width: 1000px) {
     .toggle-btn {
@@ -1161,6 +1194,7 @@ screen and (max-height: 640px) {
     }
 }
 
+/* ANIMATIONS*/
 @keyframes lds-roller {
     0% {
         transform: rotate(0deg);
@@ -1249,5 +1283,6 @@ screen and (max-height: 640px) {
         transform: rotate(25deg);
     }
 }
+
 
 /* JAN KUPCZYK */
