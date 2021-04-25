@@ -1224,29 +1224,29 @@ screen and (max-height: 640px) {
 
 @-webkit-keyframes swinging {
     0% {
-        -webkit-transform: rotate(10deg);
+        -webkit-transform: rotate(25deg);
     }
 
     50% {
-        -webkit-transform: rotate(-5deg)
+        -webkit-transform: rotate(-3deg)
     }
 
     100% {
-        -webkit-transform: rotate(10deg);
+        -webkit-transform: rotate(25deg);
     }
 }
 
 @keyframes swinging {
     0% {
-        transform: rotate(10deg);
+        transform: rotate(25deg);
     }
 
     50% {
-        transform: rotate(-5deg)
+        transform: rotate(-3deg)
     }
 
     100% {
-        transform: rotate(10deg);
+        transform: rotate(25deg);
     }
 }
 
