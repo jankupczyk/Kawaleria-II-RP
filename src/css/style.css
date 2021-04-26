@@ -132,6 +132,7 @@ cite.sunny {
     color: #2d2d2d;
     background: rgba(239, 239, 241, .40);
 }
+
 /* Sunny Theme END*/
 
 /* Theme switcher START */
@@ -309,7 +310,7 @@ body {
     height: 100%;
 }
 
-/* Nanbar START*/
+/* Navbar START*/
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -384,7 +385,7 @@ body {
     transition: ease-in 0.5s;
 }
 
-/* Nanbar END*/
+/* Navbar END*/
 
 /* Progress bar START*/
 #progress-bar-container {
@@ -956,9 +957,14 @@ footer {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
+.Meek {
+    transition: ease-in 0.5s;
+    color: #ef7d0b;
+}
+
 /* Slider END*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .toggle-btn {
         display: flex;
     }
